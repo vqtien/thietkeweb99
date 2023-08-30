@@ -1,0 +1,125 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?47fc6aefccc57a13c37d6cb703e6a456") format("truetype"),
+url("./flaticon.woff?47fc6aefccc57a13c37d6cb703e6a456") format("woff"),
+url("./flaticon.woff2?47fc6aefccc57a13c37d6cb703e6a456") format("woff2"),
+url("./flaticon.eot?47fc6aefccc57a13c37d6cb703e6a456#iefix") format("embedded-opentype"),
+url("./flaticon.svg?47fc6aefccc57a13c37d6cb703e6a456#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "bar-chart": "\f101",
+    "24-hours": "\f102",
+    "search-magnifier-outline": "\f103",
+    "support": "\f104",
+    "online-service": "\f105",
+    "check": "\f106",
+    "done-tick": "\f107",
+    "left-quote": "\f108",
+    "left-arrow": "\f109",
+    "arrow": "\f10a",
+    "lamp": "\f10b",
+    "money-growth": "\f10c",
+    "idea": "\f10d",
+    "idea-1": "\f10e",
+    "tax-free": "\f10f",
+    "credit-card": "\f110",
+    "bank": "\f111",
+    "maintenance": "\f112",
+    "clutch-disc": "\f113",
+    "rocket": "\f114",
+    "copy": "\f115",
+    "send": "\f116",
+    "clockwise": "\f117",
+    "happy": "\f118",
+    "quotation-marks": "\f119",
+);
+
+.flaticon-bar-chart:before {
+    content: map-get($flaticon-map, "bar-chart");
+}
+.flaticon-24-hours:before {
+    content: map-get($flaticon-map, "24-hours");
+}
+.flaticon-search-magnifier-outline:before {
+    content: map-get($flaticon-map, "search-magnifier-outline");
+}
+.flaticon-support:before {
+    content: map-get($flaticon-map, "support");
+}
+.flaticon-online-service:before {
+    content: map-get($flaticon-map, "online-service");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-done-tick:before {
+    content: map-get($flaticon-map, "done-tick");
+}
+.flaticon-left-quote:before {
+    content: map-get($flaticon-map, "left-quote");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-arrow:before {
+    content: map-get($flaticon-map, "arrow");
+}
+.flaticon-lamp:before {
+    content: map-get($flaticon-map, "lamp");
+}
+.flaticon-money-growth:before {
+    content: map-get($flaticon-map, "money-growth");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
+}
+.flaticon-idea-1:before {
+    content: map-get($flaticon-map, "idea-1");
+}
+.flaticon-tax-free:before {
+    content: map-get($flaticon-map, "tax-free");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-bank:before {
+    content: map-get($flaticon-map, "bank");
+}
+.flaticon-maintenance:before {
+    content: map-get($flaticon-map, "maintenance");
+}
+.flaticon-clutch-disc:before {
+    content: map-get($flaticon-map, "clutch-disc");
+}
+.flaticon-rocket:before {
+    content: map-get($flaticon-map, "rocket");
+}
+.flaticon-copy:before {
+    content: map-get($flaticon-map, "copy");
+}
+.flaticon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.flaticon-clockwise:before {
+    content: map-get($flaticon-map, "clockwise");
+}
+.flaticon-happy:before {
+    content: map-get($flaticon-map, "happy");
+}
+.flaticon-quotation-marks:before {
+    content: map-get($flaticon-map, "quotation-marks");
+}

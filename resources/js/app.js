@@ -1,0 +1,12 @@
+require('./bootstrap');
+import I18n from './i18n';
+window.I18n = I18n;
+import './bootstrap.min.js';
+import './imagesloaded.pkgd.min.js';
+import './owl.carousel.min.js';
+import './jquery.odometer.min.js';
+import './custom-alert.js';
+import './jquery.appear.js';
+import './ajax-form.js';
+import './plugins.js';
+import './main.js';
